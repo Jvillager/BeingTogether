@@ -1,0 +1,26 @@
+@CHARSET "UTF-8";
+
+.bytestogether_footer {
+//opacity: 1 !important;
+//background-color:  rgba(221, 221, 221, 0.92) !important; /** /*#EDEDED  /* rgba(0,0,0,0.6); /* This is in the form rgba(R,G,B,a) where a is your opacity */
+opacity: 0.6 !important;
+position: absolute;
+bottom: 0;
+//width: 100%;
+z-index: 9999;
+right : 0px;
+//height: 35px;
+//	filter:Alpha(opacity=60); /* IE8 and earlier */
+//	margin-top: 2em ;
+//	float: left;
+// 	clear:both margin-left: auto;
+// 	margin-right: auto; 
+// 	line-height: 1.0em;
+}
+
+.bytestogether_footer_text {
+float: right;
+margin-right: 5px;
+color: #000;
+font-weight: bold;
+}
