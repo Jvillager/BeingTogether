@@ -1,28 +1,16 @@
 <?php
 /**
- * @package     Joomla.Plugin
- * @subpackage  System.sef
- *
+ * 
  * @copyright   Copyright (C) 2005 - 2013 Open Source Matters, Inc. All rights reserved.
  * @license     GNU General Public License version 2 or later; see LICENSE.txt
+ * 
+ * @author mManishTrivedi
  */
 defined('_JEXEC') or die;
 
-/**
- * Joomla! SEF Plugin
- *
- * @package     Joomla.Plugin
- * @subpackage  System.sef
- * @since       1.5
- */
-class PlgSystemBytesTogether extends JPlugin
+
+class PlgSystemBeingTogether extends JPlugin
 {
-	/**
-	 * Converting the site URL to fit to the HTTP request
-	 *
-	 * @return  void
-	 */
-	
 	protected $is_together = false;
 	
 	public function __construct(&$subject, $config = array())
@@ -32,7 +20,7 @@ class PlgSystemBytesTogether extends JPlugin
 		$scretWord = $this->params->get('secret_word', '');
 		
 		$app = JFactory::getApplication();
-		$urlWord = $app->input->get('bytestogether','');
+		$urlWord = $app->input->get('beingtogether','');
 		
 		if($scretWord && $scretWord === $urlWord) {
 			$this->is_together = true;
@@ -50,10 +38,10 @@ class PlgSystemBytesTogether extends JPlugin
 			return true;
 		}
 		
-		$assets_url = JUri::root().'/plugins/system/bytestogether/assets/';
+		$assets_url = JUri::root().'/plugins/system/beingtogether/assets/';
 		
-		JFactory::getDocument()->addStyleSheet($assets_url.'bytestogether.css');
-		JFactory::getDocument()->addScript($assets_url.'bytestogether.js');
+		JFactory::getDocument()->addStyleSheet($assets_url.'beingtogether.css');
+		JFactory::getDocument()->addScript($assets_url.'beingtogether.js');
 				
 		//JFactory::getDocument()->addScriptDeclaration("window.onload = function(){	TogetherJS(this);	};");
 	}
@@ -72,9 +60,9 @@ class PlgSystemBytesTogether extends JPlugin
 		ob_start();
 		?>
 
-			<div class="bytestogether_footer">
-				<div class="bytestogether_footer_text">
-					 <a href="https://togetherjs.com/" target="_blank">Mozilla's TogetherJS</a> system added into <a href="http://www.joomla.org/" target="_blank">Joomla</a> by <a href="http://www.readybytes.net/" target="_blank">readyBytes.net</a>
+			<div class="beingtogether_footer">
+				<div class="beingtogether_footer_text">
+					 <a href="https://togetherjs.com/" target="_blank">Mozilla's TogetherJS</a> system added into <a href="http://www.joomla.org/" target="_blank">Joomla</a> by <a href="https://github.com/mManishTrivedi" target="_blank">mManishTrivedi</a>
 					 
 <!--					<a href="#" id="start-togetherjs" class="togetherjs-button" onclick="TogetherJS(this); return false;">Start TogetherJS</a>-->
 				</div>

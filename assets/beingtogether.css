@@ -1,6 +1,6 @@
 @CHARSET "UTF-8";
 
-.bytestogether_footer {
+.beingtogether_footer {
 //opacity: 1 !important;
 //background-color:  rgba(221, 221, 221, 0.92) !important; /** /*#EDEDED  /* rgba(0,0,0,0.6); /* This is in the form rgba(R,G,B,a) where a is your opacity */
 opacity: 0.6 !important;
@@ -18,7 +18,7 @@ right : 0px;
 // 	line-height: 1.0em;
 }
 
-.bytestogether_footer_text {
+.beingtogether_footer_text {
 float: right;
 margin-right: 5px;
 color: #000;
