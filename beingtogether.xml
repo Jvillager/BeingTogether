@@ -1,30 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension version="2.5" type="plugin" group="system" method="upgrade">
-	<name>PLG_SYSTEM_BYTESTOGETHER</name>
-	<author>Team Readybytes</author>
+	<name>PLG_SYSTEM_BEINGTOGETHER</name>
+	<author>mManishTrivedi</author>
 	<creationDate>Jan 2014</creationDate>
 	<copyright>Copyright (C) 2005 - 2013 Open Source Matters. All rights reserved.</copyright>
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
-	<authorEmail>support+bytestogether@readybytes.in</authorEmail>
-	<authorUrl>readybytes.in</authorUrl>
+	<authorEmail>manish.tech2@gmail.com</authorEmail>
 	<version>1.0</version>
-	<description>PLG_BYTESTOGETHER_XML_DESCRIPTION</description>
+	<description>PLG_BEINGTOGETHER_XML_DESCRIPTION</description>
 	<files>
-		<filename plugin="bytestogether">bytestogether.php</filename>
+		<filename plugin="beingtogether">beingtogether.php</filename>
 		<filename>index.html</filename>
 		<folder>assets</folder>
 	</files>
 <!--	<languages>-->
-<!--		<language tag="en-GB">en-GB.plg_system_bytestogether.ini</language>-->
-<!--		<language tag="en-GB">en-GB.plg_system_bytestogether.sys.ini</language>-->
+<!--		<language tag="en-GB">en-GB.plg_system_beingtogether.ini</language>-->
+<!--		<language tag="en-GB">en-GB.plg_system_beingtogether.sys.ini</language>-->
 <!--	</languages>-->
 
 <!--	<config>-->
 <!--		<fields name="params">-->
 <!--			<fieldset name="basic">-->
 <!--				<field name="secret_word" type="url"-->
-<!--					description="PLG_BYTESTOGETHER_SECRET_WORD_DESCRIPTION"-->
-<!--					label="PLG_BYTESTOGETHER_SECRET_WORD_LABEL"-->
+<!--					description="PLG_BEINGTOGETHER_SECRET_WORD_DESCRIPTION"-->
+<!--					label="PLG_BEINGTOGETHER_SECRET_WORD_LABEL"-->
 <!--				/>-->
 <!--			</fieldset>-->
 <!--		</fields>-->
